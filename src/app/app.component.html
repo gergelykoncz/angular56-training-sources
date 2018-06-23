@@ -1,9 +1,17 @@
-<app-my-if-demo></app-my-if-demo>
+<h1>Angular 6 concepts demo</h1>
+<ul>
+  <li>
+    DOM manipulation
+    <ul>
+      <a [routerLink]="['dom']">ViewChild attribute</a>
+      <a [routerLink]="['dom', 'template']">Templates</a>
+      <a [routerLink]="['dom', 'outlet']">ngOutlet</a>
 
-<app-view-child></app-view-child>
+    </ul>
+    <a [routerLink]="['']">Structural directives</a>
+    <a [routerLink]="['attribute']">Attribute directives</a>
+    <a [routerLink]="['']">Structural directives</a>
+  </li>
+</ul>
 
-<app-template-view></app-template-view>
-
-<app-outlet-component></app-outlet-component>
-
-<app-attribute-demo></app-attribute-demo>
+<router-outlet></router-outlet>
