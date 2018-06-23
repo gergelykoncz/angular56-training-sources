@@ -1,3 +1,5 @@
+declare var require: any;
+
 import * as $ from 'jquery';
 require('emojionearea');
 
