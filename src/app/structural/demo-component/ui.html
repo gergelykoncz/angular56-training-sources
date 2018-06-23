@@ -1,0 +1,10 @@
+<h3>Structural my-if demo component</h3>
+
+<h4>My if directive</h4>
+<div *appMyIf="condition">Hi</div>
+<button (click)="triggerCondition()">Toggle condition</button>
+
+<h4>My repeat directive</h4>
+<div *appMyRepeat="10; let index">
+  <span>This is the {{index + 1}}. repeat</span>
+</div>

@@ -1,0 +1,10 @@
+<h2>ngTemplateOutlet example</h2>
+
+<span>I am first span</span>
+<ng-container [ngTemplateOutlet]="tpl"></ng-container>
+<span>I am last span</span>
+<ng-template #tpl>
+  <span>I am span in template</span>
+</ng-template>
+
+<ng-container *ngComponentOutlet="TemplateViewComponent"></ng-container>
